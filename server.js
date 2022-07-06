@@ -3,7 +3,7 @@ require('dotenv').config()
 var app = require("./app.js");
 
 // import enviroment variables
-const PORT = 3000
+const PORT = 3010
 
 app.listen(PORT,(err) => {
     if(err){
